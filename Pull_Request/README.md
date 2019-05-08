@@ -36,13 +36,23 @@ Add any additional ways to run the program below
 use a cascading set of if conditions to determine the winner below. 
 
 ```
-python demo.py
+import turtle               
+import random
 ```
 
 
 
 ```
-python demo.py test.txt
+for eachInt in range(145):
+    #Indent to begin the loop
+    if andyTotalDistance > lanceTotalDistance:
+        start.write("Andy is the winner!", move=False, align="center", font=("Arial", 25, "normal"))
+    elif lanceTotalDistance > andyTotalDistance:
+        start.write("Lance is the winner!", move=False, align="center", font=("Arial", 25, "normal"))
+        #Display out put
+    else: print("Tie Game")
+    #De-indent to end the loop
+wn.exitonclick()
 ```
 
 ## Thanks
