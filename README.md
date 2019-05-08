@@ -32,13 +32,17 @@ use a cascading set of if conditions to determine the winner.
 ## Running
 Oiterate through the loop to run the forward method on both turtles 150 times
 this section is to determine the winner of the game and be used to print who the winner is.  It calculates total distance for lance and for andy.
-
-```
-python demo.py
-```
-
 Add any additional ways to run the program below
 use a cascading set of if conditions to determine the winner below. 
+
+```
+import turtle               
+import random
+```
+
+
+
+```
 for eachInt in range(145):
     #Indent to begin the loop
     if andyTotalDistance > lanceTotalDistance:
@@ -48,9 +52,7 @@ for eachInt in range(145):
         #Display out put
     else: print("Tie Game")
     #De-indent to end the loop
-
-```
-python demo.py test.txt
+wn.exitonclick()
 ```
 
 ## Thanks
