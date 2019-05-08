@@ -1,31 +1,33 @@
- #Project Title
+ # Project Title
 
-import the turtle module
+import the turtlelab
 
 ## Getting Started
 
 You will need to set andy and lance initial distance to 0.  Use the variables andyTotalDistance and lanceTotalDistance.
 
 When you have modified the file, zip it and save it to a location you can find.  Then go ahead and submit your zipped file here.
+import the turtle module
+import random
+import the random module
+reate a screen
+label the screen
+
+lance = turtle.Turtle()     #create two turtles
+andy = turtle.Turtle()      #create two turtles
 
 ### Prerequisites
 You need to use the following comments in the appropriate location, you can add additional comments.
 
-make a random distance for andy to move
-use a cascading set of conditions to determine the winner.
-make a random distance for lance to move
-import the turtle module 
-import the random module
+Make a random distance for andy to move
+Use a cascading set of conditions to determine the winner.
+Make a random distance for lance to move
+Import the turtle module 
+Imort the random module
 create a third turtle object called start that will be used to display the winner of the game 
 use a cascading set of if conditions to determine the winner.
+#use a cascading set of if conditions to determine the winner below. 
 
-[Project] requires [software and version] to run, with [additional packages, libaries, or mods]. The commands below will [upgrade OS and install the prerequisites, or do something else]
-
-```
-sudo apt update
-sudo apt upgrade
-sudo apt install package1 package2
-```
 
 ## Running
 Oiterate through the loop to run the forward method on both turtles 150 times
@@ -36,6 +38,16 @@ python demo.py
 ```
 
 Add any additional ways to run the program below
+use a cascading set of if conditions to determine the winner below. 
+for eachInt in range(145):
+    #Indent to begin the loop
+    if andyTotalDistance > lanceTotalDistance:
+        start.write("Andy is the winner!", move=False, align="center", font=("Arial", 25, "normal"))
+    elif lanceTotalDistance > andyTotalDistance:
+        start.write("Lance is the winner!", move=False, align="center", font=("Arial", 25, "normal"))
+        #Display out put
+    else: print("Tie Game")
+    #De-indent to end the loop
 
 ```
 python demo.py test.txt
